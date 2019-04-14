@@ -1,12 +1,12 @@
-const Discord = require('discord.js');
+﻿const Discord = require('discord.js');
 const client = new Discord.Client();
 console.log("Scrpit By Dream");
 
 
 client.on("ready", () => {
-let channel =     client.channels.get("هنا اي دي الروم")
+let channel =     client.channels.get("556881769140453384")
 setInterval(function() {
-channel.send(`هنا كلام ال سبام`);
+channel.send(`شوف السبام يا حليون);
 }, 30)
 })
 
